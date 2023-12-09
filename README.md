@@ -1,14 +1,46 @@
-## Docker Compose Nodejs MysqL
+# API RESTful con Node.js
 
-This is a simple example of a docker-compose file that creates a nodejs and mysql container.
+Proyecto Node.js,
+con implementación en contenedores de Docker.
 
-### Considerations
+## Tabla de contenido
 
-- When mysql container is created, it will create a root user and a another user in the `MYSQLDB_USER` environment variable, each with its own password
+- [API RESTful con Node.js](#api-restful-con-nodejs)
+  - [Tabla de contenido](#tabla-de-contenido)
+  - [Requisitos de instalación](#requisitos-de-instalación)
+  - [Instrucciones para la instalación](#instrucciones-para-la-instalación)
+  - [Documentación detallada](#documentación-detallada)
+  - [Enlaces externos](#enlaces-externos)
 
-### Commands
+## Requisitos de instalación
 
-```sh
-docker-compose up # to execute development
-docker-compose -f docker-compose.prod.yml up # to execute production
-```
+Asegúrate de tener instalado y configurado Docker antes de comenzar.
+
+- [Docker](https://www.docker.com)
+
+## Instrucciones para la instalación
+
+
+1. Ejecutar el siguiente comando para iniciar los contenedores:
+
+    sh
+    docker-compose up -d
+    
+
+    > *IMPORTANTE*
+    >
+    > Debe estar iniciado el Docker engine para ejecutar el comando anterior,
+    > si no lo está, se devolverá un mensaje de error indicando que no se
+    > encontró el docker daemon.
+
+2. La API estará disponible en http://localhost:3000.
+
+## Documentación detallada
+
+Para obtener información detallada sobre los endpoints y cómo utilizar la API,
+consulta la [documentación detallada](./docs/README.md).
+
+## Enlaces externos
+
+- [Node.js](https://www.nodejs.org)
+- [Docker](https://www.docker.com)
