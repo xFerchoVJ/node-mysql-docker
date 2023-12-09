@@ -6,7 +6,9 @@ Bienvenido a la documentación de la API. A continuación, se presenta una lista
 
 | Recurso                   | Descripción |
 | ------------------------- | ----------- |
-| `GET /usuario`               | Recupera la lista de todos los usuarios disponibles.|
-| `GET /usuario/{id}`          | Obtiene información detallada sobre un usuario específico. |
-| `POST /usuario`              | Crea un nuevo usuario |
-| `DELETE /usuario/{id}`       | Elimina un usuario existente.  |
+| `GET /api/users`               | Recupera la lista de todos los usuarios disponibles.|
+| `GET /api/users/{id}`          | Obtiene información detallada sobre un usuario específico. |
+| `POST /api/users`              | Crea un nuevo usuario |
+| `DELETE /api/users/{id}`       | Elimina un usuario existente.  |
+| `PUT /api/users/{id}`       | Actualiza un usuario existente.  |
+
