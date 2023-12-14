@@ -1,7 +1,5 @@
 # API RESTful con Node.js
-
-Proyecto Node.js,
-con implementación en contenedores de Docker.
+Proyecto en NodeJS para la creación de la tarjeta digital de usuarios
 
 ## Tabla de contenido
 
@@ -19,13 +17,15 @@ Asegúrate de tener instalado y configurado Docker antes de comenzar.
 - [Docker](https://www.docker.com)
 
 ## Instrucciones para la instalación
+1. Clonar el repositorio
+   ```sh
+   git clone https://github.com/xFerchoVJ/node-mysql-docker.git
+   ```
+2. Ejecutar el siguiente comando para iniciar los contenedores:
 
-
-1. Ejecutar el siguiente comando para iniciar los contenedores:
-
-    sh
+    ```sh
     docker-compose up -d
-    
+    ```
 
     > *IMPORTANTE*
     >
